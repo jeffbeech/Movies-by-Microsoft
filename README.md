@@ -19,32 +19,41 @@ We had several questions that we wanted to explore to improve the accuracy of ou
 
 ## Results
 ### What budget levels are profitable?
-It would be tempting to look at the list of “top 100 movies by profit” and base our entire analysis off of that. However, we think a potentially much more important metric than “most profitable” is “most often profitable.”
-![image](https://user-images.githubusercontent.com/93217519/145598874-a22d7dee-18f3-4ed6-9822-06708557c19b.png) ![image](https://user-images.githubusercontent.com/93217519/145598912-80d319fb-6f91-43c6-939f-af039e0d4154.png)
+While traditionally it is common to look only at net profits as a measure of success and try to extrapolite trends from that metric, we've determined that a potentially much more important metric than “most profitable” is “most often profitable.” To get a sense for this, the following two graphs illustrate the distribution of net profits across different budget sizes. Most of note is that only 56% of low-budget films are profitable, while over 93% of big-budget films are profitable. That combined with a high median profit for big-budget movies suggests that Microsoft would do best to focus the largest share of their efforts and resources on big-budget films.
+![image](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Images/lowbudgetdistribution.png)
+![image](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Images/bigbudgetdistribution.png)
 
 ### What Genres should Microsoft Studios focus on?
 If we examine the median profits of each individual genre, we see that animation and adventure have the highest two median profits, by considerable margins. We found that the top two most consistently profitable genres below animation are adventure and fantasy movies. Moreover, we discovered animation is consistently profitable with 83% of films produced under this category yielding profits.
-![image](https://user-images.githubusercontent.com/93217519/145599082-20f58f11-c139-4b08-ba8f-7e0c21280d77.png)
+![image](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Images/genre_profit_medians.png)
 
 ### Top 6 Grossing Studios: 2008 - 2018
 In terms of revenue, it may not necessarily be productive for Microsft to focus its efforts domestically. The data in this section shows that worldwide gross earnings represent a larger portion of total gross in most instances.
 Microsoft should target international markets to capture the greatest revenue generating potential, while also leveraging its global influence to create a dominant brand name in the film industry.
 
-![image](https://user-images.githubusercontent.com/93217519/145600341-78684bb8-b29a-4d75-8920-8eae5abdf229.png)
+![image](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Images/top_grossing_movies_by_studio.jpg)
 
 
 ### When should we release the movies?
 
 These findings suggest that big-budget movies are generally released in the summer and also leading up to the holidays, while mid-budget movies avoid the summer and low-budget movies avoid the holidays.
-![image](https://user-images.githubusercontent.com/93217519/145599596-f61cbe97-96ed-42a9-9e0a-00fbccacec15.png)
+![image](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Images/bigbudget_vs_time.png)
 
 
 
 ## Conclusion
-This analysis leads to three recommendations for entering the film studios industry:
-1. Focus on big-budget tent-pole releases: they make more money, and they make it more often.
-2. Open or acquire an animation arm for the studio. Focus on the same genres as the mainline studio: Adventure and Fantasy.
-3. Always consider the international market and audience; they will generate the vast majority of your profits. 
+This analysis leads to three recommendations to Microsoft for entering the film studios industry:
+
+
+1. Focus the largest share of your resources and energies on big-budget tent-pole releases: not only do they tend to be more profitable, but they also tend to more consistently be profitable in the first place.
+
+2. Open or acquire an animation arm that focuses on the same genres as the parent studio–adventure and fantasy–as these are the most consistently profitable with high median profits.
+
+3. In choosing scripts, stars, shooting locations, and the like, consider the impact or appeal to specific international markets. They will generate the vast majority of your profits.
+
+
+
+
 
 ## For More Information
-See the full analysis in the Jupyter Notebook or review this presentation
+See the full analysis in the [Jupyter Notebook](https://github.com/snakeeyes021/movies-by-microsoft/blob/main/Combined%20Notebook.ipynb) or review [this presentation](https://github.com/snakeeyes021/movies-by-microsoft/raw/main/Presentation.pdf).
